@@ -3,35 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Marketing</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cemilan Enak</title>
+    <!-- Tambahan: Tautan ke berkas CSS Anda -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Selamat Datang di Website Marketing</h1>
-        <p>Temukan produk dan layanan unggulan kami!</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <h1>Selamat Datang di Cemilan Enak</h1>
+        <p>Temukan Cemilan Terlezat Untuk Anda</p>
     </header>
-    <section class="produk">
+
+    <section id="produk">
         <h2>Produk Kami</h2>
-        <ul>
-            <li>
-                <img src="produk1.jpg" alt="Produk 1">
-                <h3>Produk 1</h3>
-                <p>Deskripsi produk 1.</p>
-            </li>
-            <li>
-                <img src="produk2.jpg" alt="Produk 2">
-                <h3>Produk 2</h3>
-                <p>Deskripsi produk 2.</p>
-            </li>
-        </ul>
+        <div class="produk-card">
+            <img src="gambar1.jpg" alt="Cemilan 1">
+            <h3>Cemilan 1</h3>
+            <p>Deskripsi cemilan 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Harga:</strong> Rp10000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="produk-card">
+            <img src="gambar2.jpg" alt="Cemilan 2">
+            <h3>Cemilan 2</h3>
+            <p>Deskripsi cemilan 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Harga:</strong> Rp15000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <!-- Tambahkan lebih banyak produk di sini -->
     </section>
-    <section class="kontak">
+
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah produsen cemilan terbaik di kota. Produk kami terbuat dari bahan berkualitas tinggi dan diolah dengan teliti.</p>
+    </section>
+
+    <section id="kontak">
         <h2>Hubungi Kami</h2>
-        <p>Jika Anda tertarik dengan produk kami, silakan hubungi kami di <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Jika Anda memiliki pertanyaan atau ingin berbicara dengan kami, silakan hubungi kami melalui:</p>
+        <address>
+            <p>Email: <a href="mailto:info@cemilanenak.com">info@cemilanenak.com</a></p>
+            <p>Telepon: +62 1234 5678</p>
+        </address>
     </section>
+
     <footer>
-        <p>&copy; 2023 Website Marketing</p>
+        <p>&copy; 2023 Cemilan Enak</p>
     </footer>
+    <!-- Tambahan: Tautan ke berkas JavaScript Anda -->
+    <script src="script.js"></script>
 </body>
 </html>
